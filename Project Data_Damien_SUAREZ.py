@@ -204,11 +204,6 @@ def plot_confusion_matrix(model, x_test, y_test):
     plot.set_xlabel('Predicted Labels')
     plot.set_ylabel('True Labels')
     plt.show()
-
-
-
-# Assuming you have already trained your RandomForestClassifier and obtained feature_importance, x_train, x_test, y_train, y_test
-
     
     
 flowers()   
